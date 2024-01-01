@@ -1,0 +1,15 @@
+{
+  "short_name": "Quizio",
+  "name": "Terminal Themed Quiz Platform",
+  "icons": [
+    {
+      "src": "quizio-favicon-color.png", 
+      "type": "image/png",
+      "size": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

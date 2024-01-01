@@ -1,0 +1,168 @@
+body{
+  background: url("./assets/images/18410.jpg");
+  /* background-color: black; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding:50px;
+}
+.terminal-box{
+  background-color: black;
+  color:green;
+  font-family: 'Courier New', Courier, monospace;
+  padding:10px;
+  border-radius: 3px;
+  height:80vh;
+  overflow: auto;
+}
+.terminal-window{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 2%;
+}
+.terminal-input{
+  font-family: inherit;
+  background: transparent;
+  border:none;
+  outline: 0;
+  padding:0;
+  color:white;
+}
+table{
+  margin-top: 2%;
+  width:100%;
+  border:1px dashed #fff;
+  border-radius:3px;
+}
+th{
+  color: #fff;
+  font-weight: bold;
+  border-bottom: 1px dashed #fff;
+  text-transform:uppercase;
+}
+td, th {
+  text-align: center;
+  padding: 10px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background:transparent; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  visibility: hidden;
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 50px; 
+  visibility: visible;
+  opacity: .5; 
+}
+button {
+  border-radius: 3px;
+  background-color: #1e1e1e;
+  color: green;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  font: inherit;
+}
+button:hover {
+  background-color: green;
+  color: black;
+}
+.terminal-input-quiz{
+  width:100%;
+  background-color: #1e1e1e;
+  border:none;
+  outline: 0;
+  color: white;
+  padding: 5px;
+  font: inherit;
+}
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-radio {
+  width:max-content;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+.custom-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.custom-radio:hover{
+  color:white;
+}
+.custom-radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.custom-radio input:checked ~ .checkmark {
+  background-color: green;
+  color:white;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.custom-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.custom-radio .checkmark:after {
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.opt-selected{
+  color: white;
+}
+.terminal-nav{
+  float:right;
+  background-color: #1e1e1e;
+  padding:10px;
+  border-radius:3px;
+  cursor: pointer;
+}
+.terminal-nav:hover{
+  background-color: green;
+  color: black;
+}
+.home-options{
+  width:max-content;
+  cursor: pointer;
+}
+.home-options:hover{
+  color:white;
+}
